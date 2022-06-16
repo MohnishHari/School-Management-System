@@ -10,10 +10,9 @@
 
 html, body {
     height: 100%;
-    background-color: #152733;
+    background-color: darkcyan;
     overflow: hidden;
 }
-
 
 .form-holder {
       display: flex;
@@ -54,7 +53,7 @@ html, body {
 }
 
 .form-content h3 {
-    color: springgreen;
+    color: #fff;
     text-align: left;
     font-size: 28px;
     font-weight: 600;
@@ -74,27 +73,8 @@ html, body {
     margin-bottom: 30px;
 }
 
-
 .form-content label, .was-validated .form-check-input:invalid~.form-check-label, .was-validated .form-check-input:valid~.form-check-label{
     color: #fff;
-}
-
-
-
-.btn-primary{
-    background-color: #6C757D;
-    outline: none;
-    border: 0px;
-    box-shadow: none;
-    position: fixed;
-
-}
-
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active{
-    background-color: #495056;
-    outline: none !important;
-    border: none !important;
-     box-shadow: none;
 }
 
 .form-content textarea {
@@ -127,103 +107,54 @@ html, body {
     margin-bottom: 8px !important;
 }
 
-.invalid-feedback{
-    color: #ff606e;
-}
-
-.valid-feedback{
-   color: #2acc80;
-}
-
-
 
 
 .btn-primary:active{
-
     border-radius: 5px;
-
-    background:blueviolet;
-
-    color: #0b0a0a;
-
+    background:#015569;
+    color: white;
     box-shadow: inset 5px 5px 5px #0b0a0a,
-
-            inset -5px -5px 10px #2b2626;
-
+    inset -5px -5px 10px #2b2626;
 }
+
 .btn-primary{
-
+    position: fixed;
     height: 45px;
-
-    width: 60px;
-
+    width: 55px;
     border: 0px solid #0b0a0a;
-
-    border-radius: 5px;
-
     margin: 10px 10px;
-
     text-align: center;
-
-    color:blueviolet;
-
+    color:white;
     font-weight: bolder;
-
     font-size: 24px;
-
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-    background: linear-gradient(145deg, #181616, #1d1a1a);
-
+    background-color: #015569;
     box-shadow:  5px 5px 4px #0b0a0a,
-
     -5px -5px 4px #2b2626;
-
 }
-
 
 .btn-inf{
-
     height: 45px;
-
     width: 110px;
-
     border: 0px solid #0b0a0a;
-
     border-radius: 5px;
-
     margin: 10px 0px;
-
     text-align: center;
-
-    color:cyan;
-
+    color:white;
     font-weight: bolder;
-
     font-size: 24px;
-
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-    background: linear-gradient(145deg, #181616, #1d1a1a);
-
+    background-color: #015569;
     box-shadow:  5px 5px 4px #0b0a0a,
-
     -5px -5px 4px #2b2626;
-
 }
-
 
 .btn-inf:active{
-
     border-radius: 5px;
-
-    background:cyan;
-
+    background: #015569;
     color: #0b0a0a;
-
     box-shadow: inset 5px 5px 5px #0b0a0a,
-
-            inset -5px -5px 10px #2b2626;
-
+    inset -5px -5px 10px #2b2626;
 }
+
 
