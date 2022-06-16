@@ -1,4 +1,4 @@
-package com.hcl.registration.service;
+package com.hcl.registration.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

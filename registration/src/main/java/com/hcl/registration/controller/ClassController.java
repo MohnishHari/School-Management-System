@@ -4,9 +4,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import com.hcl.registration.exception.ResourceNotFoundException;
 import com.hcl.registration.model.Class;
 import com.hcl.registration.repository.ClassRepository;
-import com.hcl.registration.service.ResourceNotFoundException;
 
 import java.util.HashMap;
 import java.util.List;
